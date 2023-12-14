@@ -96,4 +96,10 @@ header {
   .scroll__down {
     display: none;
   }
+  .me {
+    width: 20rem;
+    height: 33rem;
+    border-radius: 16rem 16rem 0 0;
+    margin: 2rem 1rem;
+  }
 }
