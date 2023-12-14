@@ -42,7 +42,7 @@ header {
   height: 33rem;
   position: absolute;
   left: calc(50% - 10.9rem);
-  margin-top: 7rem;
+  margin-top: 6rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 2rem 1.5rem 1.5rem 1.5rem;
@@ -57,6 +57,26 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1366px) {
+  .me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 33rem;
+    position: absolute;
+    left: calc(50% - 10.9rem);
+    margin-top: 1rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+  }
+  .cta {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+  }
 }
 
 /* =================== Media query  (Medium device) ===================== */
